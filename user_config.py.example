@@ -1,0 +1,12 @@
+# worker name
+name = "worker-x86_64"
+# password for master auth
+passwd = "blablabla"
+protocol = "pb"
+keepalive = 600
+maxdelay = 300
+# use tls, connection string for self-signed cert
+connection_string = "TLS:build.chimera-linux.org:9989:trustRoots=ca-certs"
+
+num_cpus = None
+umask = None
